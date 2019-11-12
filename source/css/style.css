@@ -1,0 +1,183 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+	color : grey;
+	
+} 
+
+h1
+{
+	font-size: 3em;
+	font-family: "Oswald", serif;
+	color: #404040;
+	
+}
+h2
+{
+	color: #303030;
+	font-family: "Oswald";
+}
+
+p
+{
+	text-align: left;
+}
+
+img:hover
+{
+	border-style: double;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #f2f2f2;
+}
+
+@font-face 
+{
+  font-family: "Oswald";
+  src: url("../oswald/Oswald-Light.ttf");
+}
+
+#main
+{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	padding-top: 5%;
+	background-color: #f2f2f2;
+}
+
+#icones
+{
+	display: flex;
+	margin-left: 10%;
+	justify-content: space-between;
+}
+
+#cpright
+{
+	/* position:absolute; */
+	text-align: center;
+	margin-right: 10%;
+	font-family: oswald, serif;
+}
+
+
+
+.left, .right
+{
+	width: 50%;
+	padding: 10%;
+	background-color: white;
+	border: solid;
+	border-color: #f2f2f2;;
+	
+}
+
+.left
+{
+	
+	text-align: left;
+	margin-left: 10%;
+	
+
+}
+
+.right
+{
+	
+	margin-right: 10%;
+	
+}
+
+.ecart
+{
+	margin: 5%;
+	margin-top: 0;
+}
+
+.ecart1
+{
+	margin-right: 5%;
+}
+
+.taille
+{
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid rgb(192,192,192,0.5);
+
+}
+
+.centre
+{
+	text-align: center;
+}
+
+.couleur
+{
+	 color : #00e6ac
+}
+
+.fondcolor
+{
+	background-color:  #00e6ac;
+	color: white;
+	border: none;
+	font-family: Algerian;
+	
+}
+
+@media all and (max-width: 1024px)
+{
+	
+	footer
+	{
+		margin-top: 5%;
+		display: inline-table;
+		justify-content: space-between;
+
+	}
+	
+	#icones
+	{
+		display: flex;
+		justify-content: space-between;
+		float: left;
+
+	}
+	
+	#main
+	{
+		display: inline-table;
+		text-align: center;
+		justify-content: space-between;
+		padding-top: 5%;
+	}
+	
+	.taille
+	{
+
+		text-align: center;
+	}
+
+	
+	.left, .right
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+}
+
+
+
+
